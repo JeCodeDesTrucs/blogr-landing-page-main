@@ -747,6 +747,9 @@ body footer .secondary-navigation .secondary-navigation__connect .secondary-navi
             flex-direction: row;
   }
   body header .navigation .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
